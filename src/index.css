@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
-    background-color: white;
-    font-family: 'Source Sans 3', sans-serif;
+body {
+  background-color: white;
+  font-family: "Source Sans 3", sans-serif;
 }
