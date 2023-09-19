@@ -15,10 +15,11 @@ export const Home = () => {
                 <h1 className='text-[80px] text-[#3E7A68]'>Lazer é para todos</h1>
                 <p className='text-[27px] text-[#3E7A68] mt-2'>Encontre o melhor lugar para uma atividade de acordo <br /> com as suas nescessidades!</p>
                 <img src={childrenImg} alt="" className='mt-20 mb-12' />
-                <button type="button" className="mb-24 bg-[#0d6f74] rounded-xl w-60 h-14 text-[27px] text-white hover:scale-110 hover:bg-[#094b4e] transition duration-300 ease-in-out ...">
-                    <Link to={"/lazerAcessivel/pesquisar"}>Pesquisar</Link>
-
-                </button>
+                <Link to={"/lazerAcessivel/pesquisar"}>
+                    <button type="button" className="mb-24 bg-[#0d6f74] rounded-xl w-60 h-14 text-[27px] text-white hover:scale-110 hover:bg-[#094b4e] transition duration-300 ease-in-out ...">
+                        Pesquisar
+                    </button>
+                </Link>
             </main>
 
             <div className="bg-[#FDF3ED] w-full h-auto flex flex-row justify-center">
@@ -28,4 +29,5 @@ export const Home = () => {
             </div>
 
         </div>
-)}
+    )
+}
