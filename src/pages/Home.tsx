@@ -16,7 +16,7 @@ export const Home = () => {
                 <p className='text-[27px] text-[#3E7A68] mt-2'>Encontre o melhor lugar para uma atividade de acordo <br /> com as suas nescessidades!</p>
                 <img src={childrenImg} alt="" className='mt-20 mb-12' />
                 <Link to={"/lazerAcessivel/pesquisar"}>
-                    <button type="button" className="mb-24 bg-[#0d6f74] rounded-xl w-60 h-14 text-[27px] text-white hover:scale-110 hover:bg-[#094b4e] transition duration-300 ease-in-out ...">
+                    <button type="button" className="animate-bounce mb-24 bg-[#0d6f74] rounded-xl w-60 h-14 text-[27px] text-white hover:scale-110 hover:bg-[#094b4e] transition duration-300 ease-in-out ...">
                         Pesquisar
                     </button>
                 </Link>
